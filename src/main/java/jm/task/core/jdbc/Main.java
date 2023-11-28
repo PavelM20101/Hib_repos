@@ -12,13 +12,16 @@ public class Main {
         userService.saveUser("Vladimir", "Chaykov", (byte) 25);
         userService.saveUser("Marat", "Mavlid", (byte) 33);
         userService.saveUser("Vasily", "Prokofiev", (byte) 29);
-
-        userService.removeUserById(15);
-
-        userService.getAllUsers();
-
-        userService.cleanUsersTable();
-
-        userService.dropUsersTable();
+        userService.saveUser("Alexander", "Vortov", (byte) 23);
+        userService.saveUser("Pavel", "Mordvinov", (byte) 22);
+        userService.saveUser("Eugeny", "Kalinichev", (byte) 24);
+        userService.saveUser("Victor", "Martynov", (byte) 24);
+//        userService.removeUserById(15);
+//
+//        userService.getAllUsers();
+//
+//        userService.cleanUsersTable();
+//
+//        userService.dropUsersTable();
     }
 }
